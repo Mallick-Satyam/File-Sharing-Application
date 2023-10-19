@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.container{
+  background-image: radial-gradient(white,purple);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+img{
+  width: 30%;
+}
+.wrapper
+{
+  background-image: url(asset1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 600;
+
+  color: rgb(150, 97, 150);
+
+  margin: 40px 0;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+
+  background-color: rgb(129, 72, 129);
+  border: 1px solid rgb(49, 43, 49);
+  border-width: 5px;
+  color: white;
+  font-size: 20px;
+
+  margin: 30px 0;
+}
+
